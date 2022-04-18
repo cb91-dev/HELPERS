@@ -1,0 +1,82 @@
+<!-- This project is aimed at new users to HTML and CSS, please view CSS file in this directory-->
+
+<!--HTML (HyperText Markup Language) is the code that is used to structure a web page and its content.-->
+
+<!-- Below is a basic page setup with some helpers to better understand how things work -->
+
+<!-- All HTML documents must start with a <!DOCTYPE> declaration.
+
+: -->
+<!DOCTYPE html>
+<!-- The <html> tag represents the root of an HTML document.
+
+The <html> tag is the container for all other HTML elements (except for the <!DOCTYPE> tag).
+
+Note: You should always include the lang attribute inside the <html> tag, to declare the language of the Web page. This is meant to assist search engines and browsers. -->
+<html lang="en">
+
+<!-- The <head> element is a container for metadata (data about data) and is placed between the <html> tag and the <body> tag.
+
+Metadata is data about the HTML document. Metadata is not displayed.
+
+Metadata typically define the document title, character set, styles, scripts, and other meta information. -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>HELPER</title>
+</head>
+<!-- The <body> tag defines the document's body.
+
+The <body> element contains all the contents of an HTML document, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.
+
+Note: There can only be one <body> element in an HTML document. -->
+
+<body>
+    <!-- We have provided some basic markup to guide you -->
+    <div class="flex-headings">
+        <div>
+            <!-- Take not of the attributes added to tags -->
+            <h1 style="color:blue;font-family:fantasy;">I'm a heading in a h1 tag with inline styling</h1>
+            <h2 style="
+            font-size:25pt;
+            color:green;
+            font-family:-apple-system;">
+                I'm a heading in a h2 tag with inline styling</h2>
+            <h3 style="
+            color:brown;
+            font-family: 'Trebuchet MS';">I'm a heading in a h3 tag with inline styling</h3>
+            <h4 style="
+            color:yellow;
+            font-family:fantasy;">I'm a heading in a h4 tag with inline styling</h4>
+            <h5 style="
+            color:red;
+            font-family:fantasy;">I'm a heading in a h5 tag with inline styling </h5>
+        </div>
+        <div class="spacer"></div>
+        <div>
+            <h1 class="change_h1">I'm a heading in a h1 tag with styling from a CSS file</h1>
+            <h2 class="change_h2">I'm a heading in a h2 tag with styling from a CSS file</h2>
+            <h3 class="change_h3">I'm a heading in a h3 tag with styling from a CSS file</h3>
+            <h4 class="change_h4">I'm a heading in a h4 tag with styling from a CSS file</h4>
+            <h5 class="change_h5">I'm a heading in a h5 tag with styling from a CSS file</h5>
+        </div>
+    </div>
+    <div class="flex-paragraph">
+        <div>
+            <!-- Take not of the attributes added to tags -->
+            <p style="
+            color:blue;
+            font-family:'Courier New', Courier, monospace;">I'm a the first paragraph in a p tag
+            </p>
+        </div>
+        <div class="spacer"></div>
+        <div>
+            <p class="change_p">I'm a second paragraph in a p tag</p>
+        </div>
+    </div>
+</body>
+
+</html>

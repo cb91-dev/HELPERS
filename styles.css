@@ -1,0 +1,46 @@
+/*  Cascading Style Sheets or more commonly known as CSS */
+/* Best place to find out what CSS can do https://www.w3schools.com/css/css_intro.asp */
+
+body {
+  background-color: rgb(150, 194, 194);
+}
+/* Flexbox is a way we can render elements on page, a really good place to learn about flex box is https://css-tricks.com/snippets/css/a-guide-to-flexbox/  */
+.flex-headings {
+  display: flex;
+  justify-content: center;
+}
+.spacer {
+  padding: 4em;
+}
+
+/* Take note below how we have change our headings, many styles can be applied to html tags. We do this bby adding a attributes and then defining them in CSS to change what we like. Below we have change the font-size and colour of each element. */
+.change_h1 {
+  font-size: small;
+  color: blue;
+}
+.change_h2 {
+  font-size: medium;
+  color: yellow;
+}
+.change_h3 {
+  font-size: large;
+  color: crimson;
+}
+.change_h4 {
+  font-size: larger;
+  color: chartreuse;
+}
+.change_h5 {
+  font-size: x-large;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  color: darkgreen;
+  font-weight: bolder;
+}
+.flex-paragraph {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.change_p {
+  font-size: 20pt;
+}
